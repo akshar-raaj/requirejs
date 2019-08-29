@@ -37,4 +37,10 @@ Let's assume there is an index.html which needs five different functions. There 
 
 This is prone to breaking. requirejs fixed this.
 
+## Requirejs way
+
+    <body>
+        <script data-main="scripts/main.js" src="scripts/require.js"></script>
+    </body>
+
 ## Using requirejs with libraries installed using npm, i.e with a complex folder structure.
