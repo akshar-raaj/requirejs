@@ -4,11 +4,11 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    with open('requirejs-index.html') as f:
+    with open('index.html') as f:
         content = f.read()
     return content
 
 
 @app.route('/scripts/<path:path>')
 def send_js(path):
-    return send_from_directory('js', path)
+    return send_from_directory('scripts', path)
