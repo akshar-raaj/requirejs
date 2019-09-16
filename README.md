@@ -42,5 +42,3 @@ This is prone to breaking. requirejs fixed this.
     <body>
         <script data-main="scripts/main.js" src="scripts/require.js"></script>
     </body>
-
-## Using requirejs with libraries installed using npm, i.e with a complex folder structure.
